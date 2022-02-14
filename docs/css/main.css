@@ -1,4 +1,35 @@
 :root {
-  --bs-primary: green;
-  --bs-blue: green;
+
+  --w-logo                : 230px;
+
+  --color-2               : #438ae4
+
+}
+
+.main-header {
+  background-color: pink;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-header__logo {
+  /* background-color: crimson; */
+}
+
+.logo {
+  /* background-color: tomato; */
+  width: var(--w-logo);
+}
+
+.icon__menu {
+  /* background-color: brown; */
+  display: block;
+}
+
+.icon__menu svg {
+  fill: var(--color-2);
+  height: 40px;
+  position: relative;
+  top: 5px;
+  left: -10px;
 }

@@ -11,8 +11,53 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <h1>Maquetación responsive  de la página Electrifica.cl</h1>
-  <button class="btn btn-primary">prueba</button>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ducimus ea esse? Saepe nesciunt reiciendis quo eaque earum natus impedit quis rerum quia in ab eos voluptatibus quod, porro maxime.</p>
+  
+  <nav class="container main-header">
+
+    <section class="row">
+
+      <article class="main-header__logo col-10 col-md-4">
+  
+        <img class="logo" src="img/logo.png" alt="Logo de electrifica">
+  
+      </article>
+
+      <article class="col-2 main-header__menu">
+
+        <a class="icon__menu" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+        
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Offcanvas</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div>
+              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+            </div>
+            <div class="dropdown mt-3">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                Dropdown button
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </section>
+
+
+  </nav>
+
+  <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
