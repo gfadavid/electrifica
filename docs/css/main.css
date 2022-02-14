@@ -28,8 +28,28 @@
 
 .icon__menu svg {
   fill: var(--color-2);
+  width: 50px;
   height: 40px;
   position: relative;
   top: 5px;
   left: -10px;
+}
+
+.main-header__icons {
+  background-color: darkorchid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-header__icons__item {
+  background-color: crimson;
+}
+
+.main-header__icons__item svg {
+  fill: white;
+  width: 40px;
+  height: 40px;
 }
