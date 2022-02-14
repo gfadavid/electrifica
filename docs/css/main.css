@@ -53,6 +53,12 @@
   text-decoration: none;
 }
 
+.main-header__icons__item:hover,
+.main-header__icons__item:hover svg {
+  color: var(--color-2);
+  fill: var(--color-2);
+}
+
 .main-header__icons__item svg {
   fill: var(--color-1);
   width: 40px;
