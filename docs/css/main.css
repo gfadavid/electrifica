@@ -47,6 +47,10 @@
 
 .main-header__icons__item {
   /* background-color: crimson; */
+  font-size: 12px;
+  text-align: center;
+  color: var(--color-1);
+  text-decoration: none;
 }
 
 .main-header__icons__item svg {

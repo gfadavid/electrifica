@@ -1,0 +1,8 @@
+@media screen and (min-width: 992px) {
+
+  .main-header__icons {
+    /* background-color: chartreuse; */
+    max-width: 300px;
+  }
+
+}
