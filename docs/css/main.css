@@ -1,4 +1,4 @@
-body {
-  background-color: steelblue;
-  color: white;
+:root {
+  --bs-primary: green;
+  --bs-blue: green;
 }
