@@ -4,7 +4,13 @@
 
   --color-1               : #AB3CB9;
   --color-2               : #438ae4;
+  --color-3               : #4cb0ff;
 
+}
+
+body {
+  font-size: 13px;
+  font-family: Verdana, sans-serif;
 }
 
 .main-header {
@@ -100,4 +106,37 @@
   background-color: var(--color-2);
   border-radius: 15px;
   cursor: pointer;
+}
+
+.menu__desktop {
+  background-color: var(--color-1);
+}
+
+.menu__desktop__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu__desktop__list__item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__desktop__list__link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu__desktop__list__link:hover {
+  color: var(--color-3);
+}
+
+.menu__desktop__list__link img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -40px;
+  width: 30px;
 }

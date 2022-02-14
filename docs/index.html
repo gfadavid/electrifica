@@ -13,88 +13,128 @@
 </head>
 <body>
   
-  <nav class="container-fluid main-header">
+  <nav class="main-header">
 
-    <section class="row align-items-md-center">
+    <div class="container-fluid">
 
-      <article class="col-10 col-md-4 main-header__logo">
+      <section class="row align-items-md-center">
   
-        <img class="logo" src="img/logo.png" alt="Logo de electrifica">
+        <article class="col-10 col-md-4 main-header__logo">
+    
+          <img class="logo" src="img/logo.png" alt="Logo de electrifica">
+    
+        </article>
   
-      </article>
-
-      <article class="col-2 d-lg-none main-header__menu">
-
-        <a class="icon__menu" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">
-          <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-          </svg>
-        </a>
-        
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasMenuLabel">Offcanvas</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div>
-              Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        <article class="col-2 d-lg-none main-header__menu">
+  
+          <a class="icon__menu" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button" aria-controls="offcanvasMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+          </a>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu" aria-labelledby="offcanvasMenuLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasMenuLabel">Offcanvas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="dropdown mt-3">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
-                Dropdown button
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+            <div class="offcanvas-body">
+              <div>
+                Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
             </div>
           </div>
+        </article>
+  
+        <article class="col-12 col-md-4 order-lg-last ms-lg-auto main-header__icons">
+  
+          <a class="main-header__icons__item" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+            </svg>
+            <span class="d-block">
+              Mi cuenta
+            </span>
+          </a>
+          <a class="main-header__icons__item" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+            </svg>
+            <span class="d-block">
+              Mis Compras
+            </span>
+          </a>
+          <a class="main-header__icons__item" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <span class="d-block">
+              Carro
+            </span>
+          </a>
+  
+        </article>
+  
+        <article class="col-12 col-md-4 main-header__search">
+  
+          <section class="main-header__search__box">
+  
+          <form action="/search" id="search-form" method="get" target="_parent">
+  
+            <input id="search-text" name="buscador" placeholder="¿Qué buscas?" type="text">
+            <button id="search-button" type="submit"><span>Buscar</span></button>
+  
+          </form>
+  
+          </section>
+  
+        </article>
+  
+      </section>
+  
+    </div>
+
+    <section>
+  
+      <article class="d-none d-lg-block menu__desktop">
+
+        <div class="container-fluid">
+
+          <ul class="menu__desktop__list">
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">Quienes Somos</a>
+            </li>
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">Productos</a>
+            </li>
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">Servicios</a>
+            </li>
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">Mercado Circular</a>
+            </li>
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">Contacto</a>
+            </li>
+            <li class="menu__desktop__list__item">
+              <a class="menu__desktop__list__link" href="#">
+                <img src="img/icon-ws.png" alt="Ícono para Whatsapp">
+                Escribanos
+              </a>
+            </li>
+          </ul>
+
         </div>
-      </article>
-
-      <article class="col-12 col-md-4 order-lg-last ms-lg-auto main-header__icons">
-
-        <a class="main-header__icons__item" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
-            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-          </svg>
-          <span class="d-block">
-            Mi cuenta
-          </span>
-        </a>
-        <a class="main-header__icons__item" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
-            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
-          </svg>
-          <span class="d-block">
-            Mis Compras
-          </span>
-        </a>
-        <a class="main-header__icons__item" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-          </svg>
-          <span class="d-block">
-            Carro
-          </span>
-        </a>
-
-      </article>
-
-      <article class="col-12 col-md-4 main-header__search">
-
-        <section class="main-header__search__box">
-
-        <form action="/search" id="search-form" method="get" target="_parent">
-
-          <input id="search-text" name="buscador" placeholder="¿Qué buscas?" type="text">
-          <button id="search-button" type="submit"><span>Buscar</span></button>
-
-        </form>
-
-        </section>
 
       </article>
 
