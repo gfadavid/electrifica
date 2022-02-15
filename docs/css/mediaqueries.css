@@ -9,4 +9,9 @@
     padding-bottom: 0;
   }
 
+  #carouselHome .carousel-item,
+  #carouselHome .carousel-item img {
+    height: 375px;
+  }
+
 }
