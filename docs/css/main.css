@@ -141,13 +141,38 @@ body {
   width: 30px;
 }
 
-#carouselHome .carousel-item {
+#carouselHome .carousel-item,
+#carouselHome .carousel-item img {
   height: 375px;
-  position: relative;
 }
 
 #carouselHome .carousel-item img {
-  position: absolute;
   width: 100%;
-  height: 375px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.title img {
+  margin-left: 30px;
+}
+
+.degrabe {
+  background: linear-gradient(90deg, #d631c3, #a53fba);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Helvetica;
+  font-size: 34px;
+}
+
+.degraa {
+  background: linear-gradient(90deg, #a02cba, #7f33b0, 50%, #4181df, #4cb0f8);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: Helvetica;
+  font-size: 34px;
 }
