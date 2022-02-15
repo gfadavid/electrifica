@@ -73,6 +73,7 @@ body {
 
 .main-header__search {
   /* background-color: darkorange; */
+  padding-bottom: 20px;
 }
 
 .main-header__search__box {

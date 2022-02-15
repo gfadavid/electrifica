@@ -5,4 +5,8 @@
     max-width: 300px;
   }
 
+  .main-header__search {
+    padding-bottom: 0;
+  }
+
 }
